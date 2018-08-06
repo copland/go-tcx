@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2">
+    <Activities>
+        <Activity Sport="Running">
+            <Id>2018-06-14T05:57:50.000-05:00</Id>
+            <Lap StartTime="2018-06-14T05:57:50.000-05:00">
+                <TotalTimeSeconds>60.0</TotalTimeSeconds>
+                <DistanceMeters>100.0</DistanceMeters>
+                <Calories>20</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+                <Track>
+                    <Trackpoint>
+                        <Time>2018-06-14T05:57:50.000-05:00</Time>
+                        <Position>
+                            <LatitudeDegrees>48.00634491443634</LatitudeDegrees>
+                            <LongitudeDegrees>-97.65789330005646</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>178.84800000463298</AltitudeMeters>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <HeartRateBpm>
+                            <Value>85</Value>
+                        </HeartRateBpm>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <Time>2018-06-14T05:57:55.000-05:00</Time>
+                        <Position>
+                            <LatitudeDegrees>48.00634491443634</LatitudeDegrees>
+                            <LongitudeDegrees>-97.65789330005646</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>178.65393157328205</AltitudeMeters>
+                        <DistanceMeters>0.5</DistanceMeters>
+                        <HeartRateBpm>
+                            <Value>85</Value>
+                        </HeartRateBpm>
+                    </Trackpoint>
+                </Track>
+            </Lap>
+            <Lap StartTime="2018-06-14T05:57:50.000-05:00">
+                <TotalTimeSeconds>60.0</TotalTimeSeconds>
+                <DistanceMeters>150.0</DistanceMeters>
+                <Calories>20</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+                <Track>
+                    <Trackpoint>
+                        <Time>2018-06-14T05:57:50.000-05:00</Time>
+                        <Position>
+                            <LatitudeDegrees>48.00634491443634</LatitudeDegrees>
+                            <LongitudeDegrees>-97.65789330005646</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>178.84800000463298</AltitudeMeters>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <HeartRateBpm>
+                            <Value>85</Value>
+                        </HeartRateBpm>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <Time>2018-06-14T05:57:55.000-05:00</Time>
+                        <Position>
+                            <LatitudeDegrees>48.00634491443634</LatitudeDegrees>
+                            <LongitudeDegrees>-97.65789330005646</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>178.65393157328205</AltitudeMeters>
+                        <DistanceMeters>0.5</DistanceMeters>
+                        <HeartRateBpm>
+                            <Value>85</Value>
+                        </HeartRateBpm>
+                    </Trackpoint>
+                </Track>
+            </Lap>
+            <Creator xsi:type="Device_t" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <Name>Fitbit Ionic</Name>
+                <UnitId>0</UnitId>
+                <ProductID>0</ProductID>
+            </Creator>
+        </Activity>
+        <Activity Sport="Other">
+            <Id>2018-08-01T06:25:00.000-05:00</Id>
+            <Creator xsi:type="Device_t" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <Name>Fitbit Ionic</Name>
+                <UnitId>0</UnitId>
+                <ProductID>0</ProductID>
+            </Creator>
+        </Activity>
+    </Activities>
+</TrainingCenterDatabase>
