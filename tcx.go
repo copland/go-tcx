@@ -79,34 +79,3 @@ func ReadTCX(reader io.Reader) (Activities, error) {
 	return database.Activities, nil
 }
 
-func main() {
-
-	tcxPath, err := filepath.Abs("15612758058.tcx")
-	if err != nil {
-		fmt.Println(err)
-		os.Exit(1)
-	}
-	tcxFile, err := os.Open(tcxPath)
-        defer tcxFile.Close()
-	if err != nil {
-	    log.Fatal(err)
-	}
-
-	activities, err := ReadTCX(tcxFile)
-	if err != nil {
-		fmt.Println(err)
-		os.Exit(1)
-	}
-        for _, activity := range activities.Activities {
-		fmt.Printf("Sport: %s ID: %s\n", activity.Sport, activity.Id)
-		for _, lap := range activity.Laps {
-			fmt.Printf("  Total Time: %f Total Distance: %f\n", lap.TotalTimeSeconds, lap.DistanceMeters)
-			for _, trackpoint := range lap.Track.Trackpoints {
-				fmt.Printf("   Time: %s Position: (%f, %f)\n", trackpoint.Time, trackpoint.Position.LatitudeDegrees, trackpoint.Position.LongitudeDegrees)
-			}
-		}
-	}
-
-}
-
-
